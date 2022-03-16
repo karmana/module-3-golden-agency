@@ -1,0 +1,34 @@
+//* Global *//
+$font-itlic: 'droid-serif', serif;
+$font-header: 'Montserrat', sans-serif;
+$font-text: 'Roboto Slab', serif;
+$color-main: #ffffff;
+$color-two: #fed136;
+
+.header {
+    background-image: url("https://i.postimg.cc/QCf8kV51/pexels-harper-sunday-2897035.jpg"); 
+   // background-image: url(https://i.postimg.cc/3Rrzj1Zf/pexels-designecologist-1779487.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+
+    ul li {
+        display: inline;
+        text-transform: uppercase;
+        font-family: $font-header;
+    }
+    
+    a {
+        color: $color-main;
+        padding: 0 15px;
+        text-decoration: none;
+    }
+    a:hover {
+        color: #fed136;
+    }
+
+    .nav {
+        text-align: right;
+    }
+
+}

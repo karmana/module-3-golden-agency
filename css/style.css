@@ -1,3 +1,24 @@
+.header {
+  background-image: url("https://i.postimg.cc/QCf8kV51/pexels-harper-sunday-2897035.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+}
+.header ul li {
+  display: inline;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+}
+.header a {
+  color: #ffffff;
+  padding: 0 15px;
+  text-decoration: none;
+}
+.header a:hover {
+  color: #fed136;
+}
+.header .nav {
+  text-align: right;
+}
 
-
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFPQTtFQUNJLHVGQUFBO0VBRUEsa0NBQUE7RUFDQSxzQkFBQTtFQUNBLGFBQUE7QUNQSjtBRFNJO0VBQ0ksZUFBQTtFQUNBLHlCQUFBO0VBQ0EscUNBZk07QUNRZDtBRFVJO0VBQ0ksY0FqQks7RUFrQkwsZUFBQTtFQUNBLHFCQUFBO0FDUlI7QURVSTtFQUNJLGNBQUE7QUNSUjtBRFdJO0VBQ0ksaUJBQUE7QUNUUiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */

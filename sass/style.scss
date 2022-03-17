@@ -5,17 +5,39 @@ $font-text: 'Roboto Slab', serif;
 $color-main: #ffffff;
 $color-two: #fed136;
 
+
+body {
+    color: $color-main
+}
+
 .header {
     background-image: url("https://i.postimg.cc/QCf8kV51/pexels-harper-sunday-2897035.jpg"); 
    // background-image: url(https://i.postimg.cc/3Rrzj1Zf/pexels-designecologist-1779487.jpg);
     background-position: center center;
     background-size: cover;
     height: 100vh;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+    position: relative;
 
-    ul li {
+    .container {
+        height: 100vh;
+        display: flex;
+    }
+
+    .logo {
+        font-family: 'Wisdom Script', sans-serif;
+        color: #fed136;
+        font-size: 26px;
+        margin-top: 50px;
+        letter-spacing: 1px;
+        
+    }
+
+   ul li {
         display: inline;
         text-transform: uppercase;
         font-family: $font-header;
+        font-size: 14px;
     }
     
     a {
@@ -29,6 +51,31 @@ $color-two: #fed136;
 
     .nav {
         text-align: right;
+        margin-top: 34px;
     }
 
+    .main {
+        text-align: center;
+    }
+    
+    .page-title {
+        font-family: $font-itlic;
+        font-size: 40px;
+    }
+
+    .page-subtitle {
+        font-family: $font-header;
+        font-size: 75px;
+        text-transform: uppercase;
+    }
+    
+    button {
+        font-size: 18px;
+        background-color: $color-two;
+        text-transform: uppercase;
+        border-radius: 5px;
+        padding: 25px 50px;
+        border: none;
+        font-weight: bold;
+    }
 }

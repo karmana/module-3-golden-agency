@@ -2,12 +2,34 @@
 $font-itlic: 'droid-serif', serif;
 $font-header: 'Montserrat', sans-serif;
 $font-text: 'Roboto Slab', serif;
-$color-main: #ffffff;
+$color-title: #222222;
+$color-text: #777777;
 $color-two: #fed136;
+$color-rev: #ffffff;
 
 
 body {
-    color: $color-main
+    color: $color-text;
+}
+
+section {
+    padding: 100px 0 0;
+}
+.title {
+    font-size: 40px;
+    font-family: $font-header;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:#222222;
+    text-align: center;
+    margin: 0;
+}
+.subtitle { 
+    font-size: 16px;
+    font-family: $font-itlic;
+    color: $font-text;
+    text-align: center;
+    margin: 20px 0 60px 0;
 }
 
 .header {
@@ -17,7 +39,7 @@ body {
     background-size: cover;
     height: 100vh;
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
-    position: relative;
+    color: $color-rev;
 
     .container {
         height: 100vh;
@@ -26,7 +48,7 @@ body {
 
     .logo {
         font-family: 'Wisdom Script', sans-serif;
-        color: #fed136;
+        color: $color-two;
         font-size: 26px;
         margin-top: 50px;
         letter-spacing: 1px;
@@ -41,12 +63,12 @@ body {
     }
     
     a {
-        color: $color-main;
+        color: $color-rev;
         padding: 0 15px;
         text-decoration: none;
     }
     a:hover {
-        color: #fed136;
+        color: $color-two;
     }
 
     .nav {
@@ -77,5 +99,45 @@ body {
         padding: 25px 50px;
         border: none;
         font-weight: bold;
+    }
+}
+
+.services {
+
+    .box-services {
+        display: inline-flex;
+        text-align: center;
+    }
+
+    .box {
+        margin: 15px;
+        padding: 5px;
+    }
+
+    i {
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+        color: $color-two;
+        border: 3px $color-two solid;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .box-title {
+        font-family: $font-header;
+        font-weight: bold;
+        font-size: 18px;
+        color: $color-title;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+
+    .desription {
+        font-family: $font-text;
+        font-size: 14px;
+        line-height: 1.5;
+        margin: 0;
     }
 }

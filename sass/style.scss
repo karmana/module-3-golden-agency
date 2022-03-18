@@ -43,6 +43,8 @@ body {
 }
 
 
+/* Header */
+
 .header {
     background-image: url("https://i.postimg.cc/QCf8kV51/pexels-harper-sunday-2897035.jpg"); 
    // background-image: url(https://i.postimg.cc/3Rrzj1Zf/pexels-designecologist-1779487.jpg);
@@ -113,7 +115,10 @@ body {
     }
 }
 
+/* Services */
+
 .services {
+    padding-bottom: 100px;
 
     .box-services {
         display: inline-flex;
@@ -149,8 +154,11 @@ body {
         
 }
 
+/* Portfolio */
+
 .portfolio {
     background-color: #f7f7f7;
+    padding-bottom: 100px;
 
     .col {
         padding: 0;
@@ -202,4 +210,49 @@ body {
         margin-top: 0;
     }
 
+}
+
+/* Footer */
+
+.footer {
+
+    .copy {
+        display: flex;
+        align-items: center;
+
+        p {
+            font-family: $font-header;
+            font-size: 14px;
+        }
+    } 
+
+    .social-media {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 40px 0;
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            display: inline-block;
+            padding: 5px;
+        }
+
+         i {
+            height: 40px;
+            width: 40px;
+            font-size: 20px;
+            color: $color-rev;
+            border-radius: 50%;
+            cursor: pointer;
+            background: $color-title;
+            line-height: 40px;
+            text-align: center;
+        }
+    }
 }

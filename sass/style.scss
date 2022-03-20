@@ -256,3 +256,63 @@ body {
         }
     }
 }
+
+/* Media */
+
+@media (max-width: 767px) {
+
+.title {
+    padding: 50px 0 0 0;
+
+}   
+.header {
+
+    .logo {
+        margin-top: 25px;
+    }
+    .nav {
+        align-items: flex-start;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    a {
+        padding: 0 10px;
+    }
+}
+
+.services{
+    padding-bottom: 20px;
+
+    .box-services {
+        flex-direction: column;
+    }
+}
+
+.portfolio{
+    padding-bottom: 50px;
+
+    .portfolio-box {
+    margin: 0 0 50px 0;
+    
+    }
+}
+
+.footer {
+    
+    .copy{
+        order: 2;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .social-media {
+        order: 1;
+        padding: 20px 0;
+    }
+}
+
+}
